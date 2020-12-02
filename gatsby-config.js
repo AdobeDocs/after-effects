@@ -28,5 +28,5 @@ module.exports = {
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`],
-  pathPrefix: process.env.PATH_PREFIX || '/dev-site-platform-template/'
+  pathPrefix: process.env.PATH_PREFIX || '/after-effects'
 };
