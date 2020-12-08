@@ -17,7 +17,7 @@ Opportunities abound for building for After Effects. Extend the capabilities of 
 
 <TextBlock slots="image, heading, text" width="33%" theme="light" isCentered />
 
-![alt text](images/Smock_Hammer_18_N.svg)
+![alt text](images/1497848360670.old.aftereffects1.jpg)
 
 ### Build stunning visual effects
 
@@ -25,7 +25,7 @@ Go beyond built-in effects and templates. Create an effect that hasn’t been th
 
 <TextBlock slots="image, heading, text" width="33%" theme="light" isCentered />
 
-![alt text](images/Smock_AssetsLinkedPublished_18_N.svg)
+![alt text](images/1497848418996.old.aftereffects3.jpg)
 
 ### Integrate other tools in your workflow
 
