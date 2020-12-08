@@ -25,7 +25,7 @@ Go beyond built-in effects and templates. Create an effect that hasn’t been th
 
 <TextBlock slots="image, heading, text" width="33%" theme="light" isCentered />
 
-![alt text](images/1497848418996.old.aftereffects3.jpg)
+![alt text](images/1497848399575.old.aftereffects2.jpg)
 
 ### Integrate other tools in your workflow
 
@@ -33,7 +33,7 @@ Artists love After Effects not only for what can be done in the application, but
 
 <TextBlock slots="image, heading, text" width="33%" theme="light" isCentered />
 
-![alt text](images/Smock_Code_18_N.svg)
+![alt text](images/1497848418996.old.aftereffects3.jpg)
 
 ### Automate complex tasks
 
