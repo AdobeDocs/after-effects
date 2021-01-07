@@ -3,44 +3,20 @@ title: Creative Cloud - After Effects
 description: This is the home page of After Effects APIs 
 ---
 
-<Hero slots="image, heading, text, buttons" variant="halfwidth" />
+<Hero slots="image, heading, icon, text, buttons" variant="halfwidth" />
 
 ![Creative Cloud banner](images/cc-hero.png)
 
-#  Visual effects and creative workflows from your imagination.
+#  Extend the Power of After Effects
+
+![After Effects icon](images/after-effects-cc.mnemonic.240x234.png)
 
 Opportunities abound for building for After Effects. Extend the capabilities of After Effects using plug-ins, scripts, and panels that integrate seamlessly into existing workflows. Create stunning visual effects, manipulate project elements, and automate complex tasks using After Effects APIs.
 
 * [Get the SDKs](https://console.adobe.io/downloads/ae)
 
 
-
-<TextBlock slots="image, heading, text" width="33%" theme="light" isCentered />
-
-![alt text](images/1497848360670.old.aftereffects1.jpg)
-
-### Build stunning visual effects
-
-Go beyond built-in effects and templates. Create an effect that hasn’t been thought of before. Build on top of a mature API. Effects can even be made compatible with Premiere Pro.
-
-<TextBlock slots="image, heading, text" width="33%" theme="light" isCentered />
-
-![alt text](images/1497848399575.old.aftereffects2.jpg)
-
-### Integrate other tools in your workflow
-
-Artists love After Effects not only for what can be done in the application, but for how it connects to other tools in their workflow. Are you thinking of a new way for After Effects to work with other tools? Panels, scripts, and the command-line interface can help you make that connection.
-
-<TextBlock slots="image, heading, text" width="33%" theme="light" isCentered />
-
-![alt text](images/1497848418996.old.aftereffects3.jpg)
-
-### Automate complex tasks
-
-Automate tedious and error-prone steps with APIs to read and write After Effects projects. Scripts and AEGP plug-ins abstract away the file format, providing deep access to project elements.
-
-
-<TextBlock slots="image, heading, text"  width="25%" theme="dark" isCentered />
+<TextBlock slots="image, heading, text"  width="33%" theme="light" isCentered />
 
 ![alt text](images/S_IlluScriptingAndActions_96.svg)
 
@@ -48,7 +24,7 @@ Automate tedious and error-prone steps with APIs to read and write After Effects
 
 Automate After Effects using scripts that run from a menu item or the command line. Add new panels that dock and resize within the After Effects UI. Streamline how media is managed. Simplify the search and ingest of source media, and automate tedious and error-prone steps for final delivery.
 
-<TextBlock slots="image, heading, text"  width="25%" theme="dark" isCentered />
+<TextBlock slots="image, heading, text"  width="33%" theme="light" isCentered />
 
 ![alt text](images/S_IlluEffectsAndTransitions_96.svg)
 
@@ -56,40 +32,38 @@ Automate After Effects using scripts that run from a menu item or the command li
 
 Start with a wide variety of built-in parameter controls and data types, or build your own. Support image buffers with color depths from 8-bit to 32-bit floating point. Set parameter dependencies, and even change project elements based on parameter settings. Effects built using the plug-in SDK can be made compatible with Premiere Pro.
 
-<TextBlock slots="image, heading, text"  width="25%" theme="dark" isCentered />
+<TextBlock slots="image, heading, text"  width="33%" theme="light" isCentered />
 
 ![alt text](images/S_IlluExtend_96.svg)
 
-### Manipulate projects
+### Integrate other tools in your workflow
 
-AEGP plug-ins, panels, and scripts can read and modify nearly every element of After Effects projects and preferences. Manipulate text and shape layers.
+Artists love After Effects not only for what can be done in the application, but for how it connects to other tools in their workflow. Are you thinking of a new way for After Effects to work with other tools? Panels, scripts, and the command-line interface can help you make that connection.
 
+<AnnouncementBlock slots="heading, text, button" theme="dark" />
 
-<TextBlock slots="image, heading, text" width="25%" theme="dark" isCentered />
+### Build Powerful Partnerships
 
-![alt text](images/S_IlluAutoLayoutPlugIns_96.svg)
+Are you looking for collaborators to start building? Try our new Partner Finder, or check out the partners below.
 
-### Add and hook into menu items
+[Find Partners](https://www.adobe.io/apis/creativecloud/photo-imaging-api/api-demo.html) 
 
-Add menu items, hook and trigger After Effects’ internal commands.
+<TextBlock slots="image, heading, text, links" width="33%" theme="dark" isCentered />
 
-
-<TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
-
-![generic logo](images/S_IlluExtensions_96.svg)
+![Red Giant logo](images/RG_web_on_black.png)
 
 ### Red Giant Trapcode Suite
 
 A set of 11 tools for 3D motion graphics and visual effects.
 
-* [Learn more](hhttp://www.redgiant.com/products/trapcode-suite/)
+* [Learn more](https://www.redgiant.com/products/trapcode-suite/)
 
 
 
 
-<TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
+<TextBlock slots="image, heading, text, links" width="33%" theme="dark" isCentered />
 
-![generic logo](images/S_IlluExtensions_96.svg)
+![Video Copilot logo](images/video-copilot-logo.jpg)
 
 ### Video Copilot Element 3D
 
@@ -100,9 +74,9 @@ Export animations for web as .json files. Render animations in the browser in sv
 
 
 
-<TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
+<TextBlock slots="image, heading, text, links" width="33%" theme="dark" isCentered />
 
-![generic logo](images/S_IlluExtensions_96.svg)
+![Bodymovin logo](images/bodymovin_1240x496_shadow_tn.png)
 
 ### Bodymovin
 
