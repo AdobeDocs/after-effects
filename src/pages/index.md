@@ -9,7 +9,7 @@ description: This is the home page of After Effects APIs
 
 #  Extend the Power of After Effects
 
-![After Effects icon](images/after-effects-cc.mnemonic.240x234.png)
+![After Effects icon](images/ae_appicon_256.svg)
 
 Opportunities abound for building for After Effects. Extend the capabilities of After Effects using plug-ins, scripts, and panels that integrate seamlessly into existing workflows. Create stunning visual effects, manipulate project elements, and automate complex tasks using After Effects APIs.
 
