@@ -46,7 +46,7 @@ Artists love After Effects not only for what can be done in the application, but
 
 Are you looking for collaborators to start building? Try our new Partner Finder, or check out the partners below.
 
-[Find Partners](https://www.adobe.io/apis/creativecloud/photo-imaging-api/api-demo.html) 
+[Find Partners](https://adobe-video-partner-finder.com/) 
 
 <TextBlock slots="image, heading, text, links" width="33%" theme="dark" isCentered />
 
