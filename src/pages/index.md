@@ -40,13 +40,16 @@ Start with a wide variety of built-in parameter controls and data types, or buil
 
 Artists love After Effects not only for what can be done in the application, but for how it connects to other tools in their workflow. Are you thinking of a new way for After Effects to work with other tools? Panels, scripts, and the command-line interface can help you make that connection.
 
-<AnnouncementBlock slots="heading, text, button" theme="dark" />
+<TextBlock slots="image, heading, text1, buttons" theme="dark" />
 
-### Build Powerful Partnerships
+![Adobe Stock image of collaborators](images/AdobeStock_252386533.697x377.png)
 
-Are you looking for collaborators to start building? Try our new Partner Finder, or check out the partners below.
+### Find Powerful Partners
 
-[Find Partners](https://adobe-video-partner-finder.com/) 
+We’ve found that one of the greatest challenges our customers have is navigating through a large partner eco-system to find the solution that best suits their unique workflow requirements. The Partner Finder was designed to make this process easier by including a company overviews, use case information and other useful information about these companies and their products.
+
+* [Video & Audio Partner Finder](https://adobe-video-partner-finder.com/)
+
 
 <TextBlock slots="image, heading, text, links" width="33%" theme="dark" isCentered />
 
