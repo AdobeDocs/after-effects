@@ -3,9 +3,11 @@ title: Creative Cloud - After Effects
 description: This is the home page of After Effects APIs 
 ---
 
-<Hero slots="image, heading, icon, text, buttons" variant="halfwidth" />
+<Hero slots="image, icon, heading, icon, text, buttons" variant="halfwidth" />
 
 ![Creative Cloud banner](images/cc-hero.png)
+
+![After Effects Logo](images/ae_appicon_256.svg)
 
 #  Extend the Power of After Effects
 
