@@ -72,7 +72,7 @@ A set of 11 tools for 3D motion graphics and visual effects.
 
 ### Video Copilot Element 3D
 
-Export animations for web as .json files. Render animations in the browser in svg, canvas and html.
+Advanced 3D object and particle render engine.
 
 * [Learn more](https://www.videocopilot.net/products/element2/)
 
@@ -85,7 +85,7 @@ Export animations for web as .json files. Render animations in the browser in sv
 
 ### Bodymovin
 
-Instantly share Creative Cloud files, designs, specs, and notifications all in real time.
+Export animations for web as .json files. Render animations in the browser in svg, canvas and html.
 
 * [Learn more](http://aescripts.com/bodymovin/)
 
