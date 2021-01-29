@@ -6,4 +6,4 @@ View the [demo](https://adobedocs.github.io/dev-site-platform-template/) running
 
 Follow the [instructions](https://github.com/adobe/gatsby-theme-aio#getting-started) to get started.
 
-<!-- Bump to deploy to Stage -->
+<!-- Bump to deploy to Prod -->
