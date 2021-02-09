@@ -44,7 +44,9 @@ Artists love After Effects not only for what can be done in the application, but
 
 <TextBlock slots="image, heading, text1, buttons" theme="dark" />
 
-![Adobe Stock image of collaborators](images/AdobeStock_252386533.697x377.png)
+<!-- ![Adobe Stock image of collaborators](images/AdobeStock_252386533.697x377.png) -->
+
+![Digital video logos](images/dva-partnerfinder-image002.png)
 
 ### Find Powerful Partners
 
