@@ -1,5 +1,5 @@
 ---
-`keywords:
+keywords:
   - Creative Cloud
   - API Documentation
   - ExtendScript
