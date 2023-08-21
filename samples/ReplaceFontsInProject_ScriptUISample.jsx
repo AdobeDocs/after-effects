@@ -358,9 +358,9 @@
 
         theListBox.remove(currentIndex);
 
-        // app.beginSuppressDialogs();
+        app.beginSuppressDialogs();
         updatedCurrentItem = theListBox.add("item", cacheItem.usedNativeFullName, currentIndex);
-        // app.endSuppressDialogs(false);
+        app.endSuppressDialogs(false);
 
         updatedCurrentItem.subItems[0].text = cacheItem.usage;
         updatedCurrentItem.currentFont = cacheItem.usedfontObject;
