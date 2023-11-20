@@ -11,7 +11,6 @@
 
     // DIALOG
     // ======
-    var win = new Window("palette");
     win.text = title;
     win.orientation = "column";
     win.alignChildren = ["fill", "top"];
