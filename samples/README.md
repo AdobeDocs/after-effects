@@ -2,7 +2,7 @@
 
 This folder contains samples of ScriptUI panels utilizing ExtendScript APIs for accessing typefaces and editing Text layers in Adobe After Effects. These APIs are available in Adobe After Effects 24.0 and later, but may be subject to change while still in Beta.
 
-[Read the official announcement in the Adobe Community here.](https://community.adobe.com/t5/after-effects-beta-discussions/new-text-scripting-hooks-starting-after-effects-beta-24-0x14/td-p/13976407)
+[Read the first official announcement in the Adobe Community here.](https://community.adobe.com/t5/after-effects-beta-discussions/new-text-scripting-hooks-starting-after-effects-beta-24-0x14/td-p/13976407)
 
 Full documentation is available on docsforadobe:
 - [Fonts object (new)](https://ae-scripting.docsforadobe.dev/other/fontsobject.html)
@@ -21,6 +21,14 @@ Use this panel to view and inspect attributes of all installed typefaces, and al
 ### InspectVariableFonts_ApplyControls_ScriptUISample.jsx
 
 Use this panel to view and inspect attributes of installed **variable** typefaces, and also to apply variable typefaces and animation controls to Text layers.
+
+### ReplaceFontsInProject_ScriptUISample.jsx
+
+View typefaces used in the currently open project and replace them project-wide.
+
+### PerCharacter_StyleEdit_ScriptUISample.jsx
+
+Use this panel to randomize the typeface and colors used on individual characters of a selected Text layer, utilizing newly-added access to character and paragraph ranges within a TextDocument.
 
 ## Feedback
 
