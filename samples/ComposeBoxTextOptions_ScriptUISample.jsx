@@ -337,7 +337,7 @@
 
                 dropdown_autosize.selection = getIndexOfArrayItem(
                     dropdown_autosize_array,
-                    autoFitPolicyOptionsMapper.enumToName(currentBoxValues.boxAutoFitPolicy)
+                    autoFitPolicyOptionsMapper.enumToName(newBoxValues.boxAutoFitPolicy)
                 );
             } else {
                 label_autofitpolicy.enabled = dropdown_autosize.enabled = false;
