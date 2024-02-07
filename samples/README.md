@@ -28,7 +28,12 @@ View typefaces used in the currently open project and replace them project-wide.
 
 ### PerCharacter_StyleEdit_ScriptUISample.jsx
 
-Use this panel to randomize the typeface and colors used on individual characters of a selected Text layer, utilizing newly-added access to character and paragraph ranges within a TextDocument.
+Randomize the typeface and colors used on individual characters of a selected Text layer, utilizing newly-added access to character and paragraph ranges within a TextDocument.
+
+### ComposeBoxTextOptions_ScriptUISample.jsx
+
+Read and apply new composition options for Box Text layers to control how and where your text is arranged and aligned inside of its box.
+
 
 ## Feedback
 
