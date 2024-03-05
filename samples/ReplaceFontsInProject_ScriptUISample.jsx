@@ -118,10 +118,12 @@
     containsCancelOK.spacing = 10;
     containsCancelOK.margins = 0;
 
-    var cancelBtn = containsCancelOK.add("button", undefined, undefined, {
-      name: "cancel_btn",
-    });
-    cancelBtn.text = "Cancel";
+    if (!(win instanceof Panel)) {
+      var cancelBtn = containsCancelOK.add("button", undefined, undefined, {
+        name: "cancel_btn",
+      });
+      cancelBtn.text = "Cancel";
+    }
 
     var okBtn = containsCancelOK.add("button", undefined, undefined, {
       name: "ok_btn",
@@ -232,7 +234,9 @@
     okBtn.onClick = function () {
       doFontReplacement(usedFontListbox);
 
-      win.close();
+      if (!(win instanceof Panel)) {
+        win.close();
+      }
     }
 
     win.onResizing = win.onResize = function () {
