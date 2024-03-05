@@ -9,7 +9,6 @@
 
     // REPLACEFONTSINPROJECT
     // =====================
-    // var win = new Window("dialog");
     win.text = "Replace Fonts in Project";
     win.orientation = "column";
     win.alignChildren = ["fill", "top"];
