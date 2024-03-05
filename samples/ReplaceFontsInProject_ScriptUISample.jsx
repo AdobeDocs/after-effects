@@ -389,7 +389,7 @@
     var allListBoxItems = theListBox.items;
     var currentItem;
 
-    // The replace action is not yet undoable due to a known bug
+    // The replace action is not undoable
     app.beginUndoGroup("Replace Fonts in Project");
 
     try {
