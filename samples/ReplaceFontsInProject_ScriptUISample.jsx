@@ -323,7 +323,7 @@
         currentItem = theListBox.add("item", fontName);
   
         currentItem.currentFont = usedFont.font;
-        currentItem.subItems[0].text = usedFont.layerIDs.length;
+        currentItem.subItems[0].text = usedFont.usedAt.length;
       }
     }
   }
