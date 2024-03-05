@@ -9,7 +9,6 @@
 
     // REPLACEFONTSINPROJECT
     // =====================
-    // var win = new Window("dialog");
     win.text = "Replace Fonts in Project";
     win.orientation = "column";
     win.alignChildren = ["fill", "top"];
@@ -119,10 +118,12 @@
     containsCancelOK.spacing = 10;
     containsCancelOK.margins = 0;
 
-    var cancelBtn = containsCancelOK.add("button", undefined, undefined, {
-      name: "cancel_btn",
-    });
-    cancelBtn.text = "Cancel";
+    if (!(win instanceof Panel)) {
+      var cancelBtn = containsCancelOK.add("button", undefined, undefined, {
+        name: "cancel_btn",
+      });
+      cancelBtn.text = "Cancel";
+    }
 
     var okBtn = containsCancelOK.add("button", undefined, undefined, {
       name: "ok_btn",
@@ -233,7 +234,9 @@
     okBtn.onClick = function () {
       doFontReplacement(usedFontListbox);
 
-      win.close();
+      if (!(win instanceof Panel)) {
+        win.close();
+      }
     }
 
     win.onResizing = win.onResize = function () {
@@ -320,7 +323,7 @@
         currentItem = theListBox.add("item", fontName);
   
         currentItem.currentFont = usedFont.font;
-        currentItem.subItems[0].text = usedFont.layerIDs.length;
+        currentItem.subItems[0].text = usedFont.usedAt.length;
       }
     }
   }
@@ -386,7 +389,7 @@
     var allListBoxItems = theListBox.items;
     var currentItem;
 
-    // The replace action is not yet undoable due to a known bug
+    // The replace action is not undoable
     app.beginUndoGroup("Replace Fonts in Project");
 
     try {
