@@ -21,7 +21,7 @@ description: This is the home page of After Effects APIs
 
 Opportunities abound for building for After Effects. Extend the capabilities of After Effects using plug-ins, scripts, and panels that integrate seamlessly into existing workflows. Create stunning visual effects, manipulate project elements, and automate complex tasks using After Effects APIs.
 
-* [Get the SDKs](https://console.adobe.io/downloads/ae)
+* [Get the SDKs](https://developer.adobe.com/console/servicesandapis/ae)
 
 
 <TextBlock slots="image, heading, text"  width="33%" theme="light" isCentered />
